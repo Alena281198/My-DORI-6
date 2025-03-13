@@ -1,1 +1,3 @@
 # My-DORI-6
+Hello this is the prototype version of My DORI app. My DORI is a journaling app that customized for student so they can reflect their day.
+This is just a plain imaginary of the real application in my mind. Many things should be improved especially the UI and UX so it can be more convenient, easy, and attractive for students. The features too, I hope that I can add illustration of feeding the fish for each day students fill the journal and they can get somewhat reward if they fill it in streak. Well, in the end may this demo version can be a little bit useful since journaling has many benefits for our wellbeing. I'm open for any advice and suggestion. Sincerely, Alena.
