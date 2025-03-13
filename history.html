@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Jurnal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📜 Riwayat Jurnal</h1>
+        <p>Yuk, lihat kembali perjalanan emosimu dan refleksi yang sudah kamu tulis!</p>
+        <div class="nav">
+            <a href="index.html">✍️ Tulis Jurnal</a>
+            <a href="history.html">📜 Lihat Jurnal</a>
+        </div>
+        
+        <label for="filter-emotion">🎭 Filter berdasarkan emosi:</label>
+        <select id="filter-emotion">
+            <option value="all">Semua</option>
+            <option value="😢 Menangis">😢 Menangis</option>
+            <option value="😞 Sedih">😞 Sedih</option>
+            <option value="😠 Marah">😠 Marah</option>
+            <option value="😐 Biasa Saja">😐 Biasa Saja</option>
+            <option value="😊 Senang">😊 Senang</option>
+            <option value="😃 Bahagia">😃 Bahagia</option>
+        </select>
+        
+        <div id="journal-entries">
+            <!-- Riwayat jurnal akan ditampilkan di sini -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

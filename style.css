@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fish-container {
+    text-align: center;
+}
+.fish {
+    width: 100px;
+    animation: swim 4s infinite alternate;
+}
+@keyframes swim {
+    from { transform: translateX(-20px); }
+    to { transform: translateX(20px); }
+}
+.journal-entry {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal Harian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐟 My Dori - Jurnal Harian</h1>
+        <p>Yuk, tulis jurnalmu dan beri makan ikannya!</p>
+        <div class="nav">
+            <a href="index.html">✍️ Tulis Jurnal</a>
+            <a href="history.html">📜 Lihat Jurnal</a>
+        </div>
+
+        <!-- Tambahkan gambar ikan yang bisa bergerak -->
+        <div class="fish-container">
+            <img src="fish.png" alt="Ikan Animasi" class="fish">
+        </div>
+
+        <form id="journal-form">
+            <label for="difficulty">✨ Tantangan hari ini:</label>
+            <textarea id="difficulty" required></textarea>
+
+            <label for="solution">💡 Bagaimana cara mengatasinya?</label>
+            <textarea id="solution" required></textarea>
+
+            <label for="memorable">🎯 Hal yang paling berkesan hari ini:</label>
+            <textarea id="memorable" required></textarea>
+
+            <label>😃 Perasaanmu hari ini:</label>
+            <select id="emotion">
+                <option value="😢 Menangis">😢 Menangis</option>
+                <option value="😞 Sedih">😞 Sedih</option>
+                <option value="😠 Marah">😠 Marah</option>
+                <option value="😐 Biasa Saja">😐 Biasa Saja</option>
+                <option value="😊 Senang">😊 Senang</option>
+                <option value="😃 Bahagia">😃 Bahagia</option>
+            </select>
+
+            <label for="gratitude">🌟 3 Hal yang disyukuri:</label>
+            <textarea id="gratitude" required></textarea>
+
+            <label for="positive-word">💬 Kata positif untuk besok:</label>
+            <input type="text" id="positive-word" required>
+
+            <button type="submit">Simpan Jurnal</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
